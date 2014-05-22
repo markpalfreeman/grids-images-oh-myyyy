@@ -1,0 +1,14 @@
+header, .reporting-info, .chat-info {
+  background-color: #E2E0DF;
+}
+
+article h1.info-header {
+  color: #081B23;
+  font-weight: 800;
+  padding-bottom: .5em;
+}
+
+footer {
+  background: grey;
+  color: white;
+}

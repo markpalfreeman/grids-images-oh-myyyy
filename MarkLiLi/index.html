@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Raleway:500,700,800' rel='stylesheet' type='text/css'>
+	  <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="typography.css">
+    <link rel="stylesheet" type="text/css" href="color.css">
+	  <link rel="stylesheet" type="text/css" href="layout.css">
+	  <link rel="stylesheet" type="text/css" href="module.css">
+	  <link rel="stylesheet" type="text/css" href="state.css">
+	  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  </head>
+  <!-- <body> -->
+  	<main>
+	    <header>
+	    	<a href="#"><img src="wobegon-logo.png"></a>
+	    	<nav class="login-reg"><a href="#">Login</a> | <a href="#">Register</a></nav>
+	    </header>
+	    <article class="main-welcome">
+        <h1 class="main-welcome-heading">LET US HELP YOU.</h1>
+	      <p>Tofu Vice gentrify you probably haven't heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	      <a href="#" class="btn" id="report">Report Vandalism</a>
+	      <a href="#" class="btn" id="chat">Emergency Chat</a>
+
+	  	</article>
+	  	<div class="triangle-up"></div>
+	    <article class="reporting-info">
+	    	<h1 class="info-header">HOW REPORTING VANDALISM WORKS</h1>
+	    	<section class="info-bit">
+	    		<h1 class="info-bit-text">Describe the Incident</h1>
+	    		<p>Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	    	</section>
+	    	<section class="info-bit">
+	    		<h1 class="info-bit-text">Capture the Incident</h1>
+	    		<p>Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	    	</section>
+	    	<section class="info-bit">
+	    		<h1 class="info-bit-text">Schedule Estimation</h1>
+	    		<p>Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	    	</section>
+	    </article>
+
+	    <article class="chat-info hide-info">
+	    	<h1 class="info-header">HOW EMERGENCY CHAT WORKS</h1>
+	    	<section class="info-bit">
+	    		<h1 class="info-bit-text">Interact with a live operator</h1>
+	    		<p>Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	    	</section>
+	    	<section class="info-bit">
+	    		<h1 class="info-bit-text">Tell us about your situation</h1>
+	    		<p>Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	    	</section>
+	    </article>
+	    <footer>Copyright blah blah blah</footer>
+    </main>
+   <script>
+   	$("#report").hover(function(){
+   		$(".reporting-info").removeClass("hide-info")
+   		$(".chat-info").addClass("hide-info")
+   		$(".triangle-up").removeClass("triangle-chat")
+   	});
+
+   	$("#chat").hover(function(){
+   		$(".chat-info").removeClass("hide-info")
+   		$(".reporting-info").addClass("hide-info")
+   		$(".triangle-up").addClass("triangle-chat")
+   	});
+
+ 	 </script>
+  </body>
+</html>
