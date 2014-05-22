@@ -1,6 +1,5 @@
 
 main {
-  width: 81.25em;
   margin: auto;
 }
 
@@ -10,6 +9,11 @@ main {
 
 header {
   padding: .125em 1.25em;
+}
+
+.explanation {
+	width:100%;
+	padding: 2.5em 0;
 }
 
 article {
