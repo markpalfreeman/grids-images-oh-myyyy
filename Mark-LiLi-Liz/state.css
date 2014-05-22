@@ -4,4 +4,8 @@
 
 .btn:hover {
   background-color: #98BFB7;
-};
+}
+
+a:hover {
+	color: #98BFB7;
+}

@@ -9,11 +9,9 @@ p {
   font-family: 'PT Serif', serif;
 }
 
-<<<<<<< HEAD
-=======
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
-  font-weight: inherit;
+  font-weight: 800;
   line-height: 1.2;
 }
 
@@ -30,11 +28,18 @@ h4 {font-size: 1.618em;}
 
 small, .font_small {font-size: 0.618em;}
 
->>>>>>> 7aec567f3d21f0fc4b08893bd051aa54bef263b4
 a {
   text-decoration: none;
 }
 
-article h1.art-header {
-  font-size: 2.618em;
+.main-welcome-heading {
+  font-size: 4.236em;
+}
+
+.info-header {
+	font-size: 1.618em;
+}
+
+.info-bit-text {
+  font-size: 1.618em;
 }

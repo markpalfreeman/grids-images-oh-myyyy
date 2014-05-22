@@ -2,7 +2,7 @@ header, .explanation {
   background-color: #E2E0DF;
 }
 
-article h1.info-header {
+.info-header {
   color: #081B23;
   font-weight: 800;
   padding-bottom: .5em;
@@ -11,4 +11,8 @@ article h1.info-header {
 footer {
   background: grey;
   color: white;
+}
+
+.main-welcome-heading, a {
+  color: #DB3B24;
 }
